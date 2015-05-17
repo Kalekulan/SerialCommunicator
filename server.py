@@ -17,7 +17,7 @@ rfPath = "/usr/local/sbin/sFifo"
 
 READ_ONLY = select.POLLIN | select.POLLPRI
 
-PIDFILE = "/run/server.pid"
+PIDFILE = "/run/serialService.pid"
 
 try:
     ser = serial.Serial("/dev/ttyUSB0")#, baudrate=9600)#, timeout= 3.0)
